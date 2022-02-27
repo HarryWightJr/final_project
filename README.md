@@ -17,16 +17,16 @@ The topic was selected out of a mutual interest in finances, crime/crime rate da
 ## Datasets
 
 * Zillow House Price Data: <Sale_Prices_City.csv> from https://www.kaggle.com/paultimothymooney/zillow-house-price-data
-The dataset contains the median price at which all home types across various cities were sold on Zillow website each month from 2008 to 2020. 
+ *The dataset contains the median price at which all home types across various cities were sold on Zillow website each month from 2008 to 2020. 
 
 * Crime in Context, 1975-2015: <crime.csv> from https://www.kaggle.com/marshallproject/crime-rates
-The dataset contains crime data from 68 police jurisdictions with populations of 250,000 or greater from 1975 to 2015. 
+ *The dataset contains crime data from 68 police jurisdictions with populations of 250,000 or greater from 1975 to 2015. 
 
 * United States Cities Database: <uscities.csv> from https://simplemaps.com/data/us-cities
-The dataset contains the mapping between US cities and counties.
+ *The dataset contains the mapping between US cities and counties.
 
 * MEDIAN INCOME IN THE PAST 12 MONTHS: <medium_income_2011-2015.csv> from https://data.census.gov/cedsci
-The dataset contains the median household income for each US county from 2011 to 2015.
+ *The dataset contains the median household income for each US county from 2011 to 2015.
 
 We will only use the data from all these datasets from the period of 2011 to 2015. Since we are not able to retrive the median household income for each city, we will alter the original csv file <Sale_Prices_City.csv> by mapping each city to its county using the United States Cities Database <uscities.csv> in Excel. Also in order to reduce the file sizes of the median income datasets from US Census, unnecessary columns are droppped using Excel.
 
