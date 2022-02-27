@@ -19,7 +19,7 @@ The topic was selected out of a mutual interest in finances, crime/crime rate da
 * Zillow House Price Data: Sale_Prices_City.csv from https://www.kaggle.com/paultimothymooney/zillow-house-price-data
 * Crime in Context, 1975-2015: crime.csv from https://www.kaggle.com/marshallproject/crime-rates
 * United States Cities Database: uscities.csv from https://simplemaps.com/data/us-cities
-* MEAN INCOME IN THE PAST 12 MONTHS: medium_income_2011-2015.csv from https://data.census.gov/cedsci
+* MEDIAN INCOME IN THE PAST 12 MONTHS: medium_income_2011-2015.csv from https://data.census.gov/cedsci
 
 
 
