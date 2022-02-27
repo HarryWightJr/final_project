@@ -19,17 +19,13 @@ The topic was selected out of a mutual interest in finances, crime/crime rate da
 * Zillow House Price Data: Sale_Prices_City.csv from https://www.kaggle.com/paultimothymooney/zillow-house-price-data
 * Crime in Context, 1975-2015: crime.csv from https://www.kaggle.com/marshallproject/crime-rates
 * United States Cities Database: uscities.csv from https://simplemaps.com/data/us-cities
-* MEAN INCOME IN THE PAST 12 MONTHS from https://data.census.gov/cedsci/table?q=Median%20Household%20Income&g=0100000US%240500000&tid=ACSST1Y2019.S1903:
-** medium_income_2011.csv
-** medium_income_2012.csv
-** medium_income_2013.csv
-** medium_income_2014.csv
-** medium_income_2015.csv
-
-
-
-
-
+* MEAN INCOME IN THE PAST 12 MONTHS:
+medium_income_2011.csv
+medium_income_2012.csv
+medium_income_2013.csv
+medium_income_2014.csv
+medium_income_2015.csv
+from https://data.census.gov/cedsci/table?q=Median%20Household%20Income&g=0100000US%240500000&tid=ACSST1Y2019.S1903
 
 
 
