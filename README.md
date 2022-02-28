@@ -19,13 +19,13 @@ The topic was selected out of a mutual interest in finances, crime/crime rate da
 * [Zillow House Price Data](https://www.kaggle.com/paultimothymooney/zillow-house-price-data): [Sale_Prices_City.csv](https://github.com/HarryWightJr/final_project/blob/main/Resources/Sale_Prices_City.csv)
   * The dataset contains the median price at which all home types across various cities were sold on Zillow website each month from 2008 to 2020. 
 
-* [Crime in Context, 1975-2015](https://www.kaggle.com/marshallproject/crime-rates): [crime.csv>](https://github.com/HarryWightJr/final_project/blob/main/Resources/crime.csv)
+* [Crime in Context, 1975-2015](https://www.kaggle.com/marshallproject/crime-rates): [crime.csv](https://github.com/HarryWightJr/final_project/blob/main/Resources/crime.csv)
   * The dataset contains crime data from 68 police jurisdictions with populations of 250,000 or greater from 1975 to 2015. 
 
 * [United States Cities Database](https://simplemaps.com/data/us-cities): [uscities.csv](https://github.com/HarryWightJr/final_project/blob/main/Resources/uscities.csv)
   * The dataset contains the mapping between US cities and counties.
 
-* [MEDIAN INCOME IN THE PAST 12 MONTHS](https://data.census.gov/cedsci/table?q=Median%20Household%20Income):[medium_income_2011.csv](https://github.com/HarryWightJr/final_project/blob/main/Resources/medium_income_2011.csv) [medium_income_2012.csv](https://github.com/HarryWightJr/final_project/blob/main/Resources/medium_income_2012.csv) [medium_income_2013.csv](https://github.com/HarryWightJr/final_project/blob/main/Resources/medium_income_2013.csv) [medium_income_2014.csv](https://github.com/HarryWightJr/final_project/blob/main/Resources/medium_income_2014.csv) [medium_income_2015.csv](https://github.com/HarryWightJr/final_project/blob/main/Resources/medium_income_2015.csv)
+* [MEDIAN INCOME IN THE PAST 12 MONTHS](https://data.census.gov/cedsci/table?q=Median%20Household%20Income): [medium_income_2011.csv](https://github.com/HarryWightJr/final_project/blob/main/Resources/medium_income_2011.csv) [medium_income_2012.csv](https://github.com/HarryWightJr/final_project/blob/main/Resources/medium_income_2012.csv) [medium_income_2013.csv](https://github.com/HarryWightJr/final_project/blob/main/Resources/medium_income_2013.csv) [medium_income_2014.csv](https://github.com/HarryWightJr/final_project/blob/main/Resources/medium_income_2014.csv) [medium_income_2015.csv](https://github.com/HarryWightJr/final_project/blob/main/Resources/medium_income_2015.csv)
   * The dataset contains the median household income for each US county from 2011 to 2015.
 
 We will only use the data from all these datasets from the period of 2011 to 2015. Since we are not able to retrive the median household income for each city, we will alter the original csv file <Sale_Prices_City.csv> by mapping each city to its county using the United States Cities Database <uscities.csv> in Excel. Also in order to reduce the file sizes of the median income datasets from US Census, unnecessary columns are droppped using Excel.
