@@ -2,7 +2,7 @@
 
 ## Content
 
-The topic we have selected was to examine crime rate data and housing price data by county and create a machine learning tool to see if we could create an environment that would predict housing price based on the level of crime that occurs in a given county.
+The topic we have selected was to examine crime rate data and housing price data by county and create a machine learning tool to see if we could create an environment that would predict housing price based on the level of crime that occurs and median household income in a given county.
 
 The topic was selected out of a mutual interest in finances, crime/crime rate data, and how it may affect the housing market and where people choose to live.
 
@@ -14,7 +14,7 @@ The topic was selected out of a mutual interest in finances, crime/crime rate da
 * Group meetings are held over Zoom meetings on webcam to share ideas and to work more intricately on the project.
 
 
-## Datasets
+## Database
 
 * [Zillow House Price Data](https://www.kaggle.com/paultimothymooney/zillow-house-price-data): <Sale_Prices_City.csv>
   * The dataset contains the median price at which all home types across various cities were sold on Zillow website each month from 2008 to 2020. 
@@ -32,13 +32,13 @@ We will only use the data from all these datasets from the period of 2011 to 201
 
 
 
-## Machine Learning Module
+## Machine Learning Model
 
-
+We will build a machine learning model using linear regression algorithm based the correlation between housing prices and crime as well as median household income. The model will be designed to output a predicted house sale price by inputting a US county.
 
 ## Analysis Implementation
 
-What we are looking for in are data set is a correlation between crime and housing princes in counties across the United States. To complement this data, we will be using median income data to display how income is associated with housing prices and crime in these counties.
+What we are looking for in are data set is a correlation between crime and housing prices in counties across the United States. To complement this data, we will be using median income data to display how income is associated with housing prices and crime in these counties.
 
 Using the data we will try to display how housing prices have changed within a given year as a result of the crime in these cities, also taking into account the change in median income.
 
