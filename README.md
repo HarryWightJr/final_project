@@ -34,7 +34,7 @@ We will only use the data from all these datasets from the period of 2011 to 201
 
 ## Machine Learning Model
 
-We will build a machine learning model using linear regression algorithm based the correlation between housing prices and crime as well as median household income. The model will be designed to output a predicted house sale price by inputting a US county.
+We will build a machine learning model using multiple linear regression algorithm based the correlation between housing prices and crime as well as median household income. The model will be designed to output a predicted house sale price by inputting a US county.
 
 ## Analysis Implementation
 
