@@ -16,7 +16,7 @@ The topic was selected out of a mutual interest in finances, crime/crime rate da
 
 ## Database
 
-* [Zillow House Price Data](https://www.kaggle.com/paultimothymooney/zillow-house-price-data): <Sale_Prices_City.csv>
+* [Zillow House Price Data](https://www.kaggle.com/paultimothymooney/zillow-house-price-data): [Sale_Prices_City.csv](https://github.com/HarryWightJr/final_project/blob/main/Resources/Sale_Prices_City.csv)
   * The dataset contains the median price at which all home types across various cities were sold on Zillow website each month from 2008 to 2020. 
 
 * [Crime in Context, 1975-2015](https://www.kaggle.com/marshallproject/crime-rates): <crime.csv> 
