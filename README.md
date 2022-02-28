@@ -6,6 +6,18 @@ The topic we have selected was to examine crime rate data and housing price data
 
 The topic was selected out of a mutual interest in finances, crime/crime rate data, and how it may affect the housing market and where people choose to live.
 
+## Questions and Application
+
+What we are looking for in are data set is a correlation between crime and housing princes in big cities across the United States. To complement this data, we will be using median income data to display how income is associated with housing prices and crime in these cities.
+
+Using the data we will try to display how housing prices have changed within a given year as a result of the crime in these cities, also taking into account the change in median income.
+
+Currently based on the crime dataset we have what is listed are types of crimes, population, city-state, and year.
+The other dataset will have a median household dataset that will be used in conjunction with the crime dataset.
+
+If we were running a real-estate site we could use this data to determine which state and town are good for future investment.
+ from an investment standpoint, I would use this data to purchase homes at a time when housing prices are down because of crime. Usually, this is when large investments are made in real estate. 
+
 
 ## Communication Tools Used
 
