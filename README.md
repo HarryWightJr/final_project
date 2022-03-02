@@ -48,13 +48,3 @@ We will only use the data from all these datasets from the period of 2011 to 201
 
 We will build a machine learning model using multiple linear regression algorithm based the correlation between housing prices and crime as well as median household income. The model will be designed to output a predicted house sale price by inputting a US county.
 
-## Analysis Implementation
-
-What we are looking for in are data set is a correlation between crime and housing prices in counties across the United States. To complement this data, we will be using median income data to display how income is associated with housing prices and crime in these counties.
-
-Using the data we will try to display how housing prices have changed within a given year as a result of the crime in these cities, also taking into account the change in median income.
-
-Currently based on the crime dataset we have what is listed are types of crimes, population, county, and year.
-The other dataset will have a median household dataset that will be used in conjunction with the crime dataset.
-
-If we were running a real-estate site we could use this data to determine which state and town are good for future investment. From an investment standpoint, I would use this data to purchase homes at a time when housing prices are down because of crime. Usually, this is when large investments are made in real estate. 
