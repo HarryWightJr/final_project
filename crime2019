@@ -1,0 +1,158 @@
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 14.2
+-- Dumped by pg_dump version 14.2
+
+-- Started on 2022-03-09 19:42:42
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+SET default_tablespace = '';
+
+SET default_table_access_method = heap;
+
+--
+-- TOC entry 211 (class 1259 OID 25061)
+-- Name: complete_df; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.complete_df (
+    countyid integer,
+    averge2019 integer,
+    "Population 2019" integer,
+    "Violent Crime Total 2019" integer,
+    "Murder and nonnegligent manslaughter 2019" integer,
+    "Rape 2019" integer,
+    "Robbery 2019" integer,
+    "Aggravated assault 2019" integer,
+    "Property Crime Total 2019" integer,
+    "Burglary 2019 " integer,
+    "Larceny-theft 2019" integer,
+    "Motor vehicle theft 2019" integer,
+    "Arson 2019" integer,
+    "Population 2020" integer,
+    "Violent Crime Total 2020" integer,
+    "Murder AND nonnegligent manslaughter 2020" integer,
+    "Rape 2020" integer,
+    "Robbery 2020" integer,
+    "Aggravated assault 2020" integer,
+    "Property Crime Total 2020" integer,
+    "Burglary 2020" integer,
+    "Larceny-theft 2020" integer,
+    "Motor vehicle theft 2020" integer,
+    "Arson 2020" integer,
+    "Income_2019" integer,
+    "Income_2020" integer
+);
+
+
+ALTER TABLE public.complete_df OWNER TO postgres;
+
+--
+-- TOC entry 209 (class 1259 OID 25035)
+-- Name: crime_2019; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.crime_2019 (
+    murder_nonnegligent_manslaughter integer,
+    violent_crime integer,
+    rape integer,
+    robbery integer,
+    aggravated_assault integer,
+    property_crime integer,
+    burglary integer,
+    larceny_theft integer,
+    motor_vehicle_theft integer,
+    arson integer,
+    city character varying(400),
+    state character varying(400) NOT NULL,
+    city_and_state character varying(400),
+    countyid integer,
+    population integer
+);
+
+
+ALTER TABLE public.crime_2019 OWNER TO postgres;
+
+--
+-- TOC entry 210 (class 1259 OID 25052)
+-- Name: crime_2020; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.crime_2020 (
+    city character varying(255),
+    state character varying(255),
+    city_and_state character varying(255),
+    countyid integer,
+    population integer,
+    violent_crime integer,
+    murder_and_nonnegligent_manslaughter character varying(255),
+    rape integer,
+    robbery integer,
+    aggravated_assault integer,
+    property_crime integer,
+    burglary integer,
+    larceny_theft integer,
+    motor_vehicle_theft integer,
+    arson integer
+);
+
+
+ALTER TABLE public.crime_2020 OWNER TO postgres;
+
+--
+-- TOC entry 3314 (class 0 OID 25061)
+-- Dependencies: 211
+-- Data for Name: complete_df; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.complete_df (countyid, averge2019, "Population 2019", "Violent Crime Total 2019", "Murder and nonnegligent manslaughter 2019", "Rape 2019", "Robbery 2019", "Aggravated assault 2019", "Property Crime Total 2019", "Burglary 2019 ", "Larceny-theft 2019", "Motor vehicle theft 2019", "Arson 2019", "Population 2020", "Violent Crime Total 2020", "Murder AND nonnegligent manslaughter 2020", "Rape 2020", "Robbery 2020", "Aggravated assault 2020", "Property Crime Total 2020", "Burglary 2020", "Larceny-theft 2020", "Motor vehicle theft 2020", "Arson 2020", "Income_2019", "Income_2020") FROM stdin;
+\.
+
+
+--
+-- TOC entry 3312 (class 0 OID 25035)
+-- Dependencies: 209
+-- Data for Name: crime_2019; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.crime_2019 (murder_nonnegligent_manslaughter, violent_crime, rape, robbery, aggravated_assault, property_crime, burglary, larceny_theft, motor_vehicle_theft, arson, city, state, city_and_state, countyid, population) FROM stdin;
+\.
+
+
+--
+-- TOC entry 3313 (class 0 OID 25052)
+-- Dependencies: 210
+-- Data for Name: crime_2020; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.crime_2020 (city, state, city_and_state, countyid, population, violent_crime, murder_and_nonnegligent_manslaughter, rape, robbery, aggravated_assault, property_crime, burglary, larceny_theft, motor_vehicle_theft, arson) FROM stdin;
+\.
+
+
+--
+-- TOC entry 3172 (class 2606 OID 25041)
+-- Name: crime_2019 crime_2019_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.crime_2019
+    ADD CONSTRAINT crime_2019_pkey PRIMARY KEY (state);
+
+
+-- Completed on 2022-03-09 19:42:43
+
+--
+-- PostgreSQL database dump complete
+--
+
