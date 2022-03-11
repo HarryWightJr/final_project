@@ -1,12 +1,4 @@
-﻿City,State,City and State,CountyID,Population,"Violent
-crime","Murder and
-nonnegligent
-manslaughter",Rape,Robbery,"Aggravated
-assault","Property
-crime",Burglary,"Larceny-
-theft","Motor
-vehicle
-theft",Arson
+﻿City,State,City and State,CountyID,Population 2019,Violent Crime Total 2019,Murder and nonnegligent manslaughter 2019,Rape 2019,Robbery 2019,Aggravated assault 2019,Property Crime Total 2019,Burglary 2019,Larceny-theft 2019,Motor vehicle theft 2019,Arson 2019
 Hoover,ALABAMA,"Hoover, AL",1073,"85,670",114,4,15,27,68,"1,922",128,"1,694",100,2
 Anchorage,ALASKA,"Anchorage, AK",2020,"287,731","3,581",32,540,621,"2,388","12,261","1,692","9,038","1,531",93
 Bethel,ALASKA,"Bethel, AK",2050,"6,544",130,1,47,3,79,132,20,84,28,12
