@@ -1,6 +1,7 @@
 # Final Project
 
 ## Content
+[Link to Dashboard](https://public.tableau.com/app/profile/harry4301/viz/FinalProject_16472206107840/Dashboard1?publish=yes)
 
 The topic we have selected was to examine crime rate data and housing price data by county and create a machine learning tool to see if we could create an environment that would predict housing price based on the level of crime that occurs and median household income in a given county.
 
