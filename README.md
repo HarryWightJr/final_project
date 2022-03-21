@@ -46,7 +46,7 @@ We will only use the data from all these datasets from the period of 2019 to 202
 
 
 ## Machine Learning Model
-[Linear Regression Model](https://github.com/HarryWightJr/final_project/blob/main/linear_regression_local.ipynb)
+Click here to view the model: [Linear Regression Model](https://github.com/HarryWightJr/final_project/blob/main/linear_regression_local.ipynb)
 <br>
 We builta machine learning model using multiple linear regression algorithm based the correlation between housing prices and crime as well as median household income. The model will be designed to output a predicted house sale price by inputting a US county.
 
