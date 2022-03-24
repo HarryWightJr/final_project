@@ -50,7 +50,7 @@ Here we can see the year over year for Average Sales Price of Homes, total Viole
 
 
 ## Machine Learning Model
-Click here to view the model: [Linear Regression Model](https://github.com/HarryWightJr/final_project/blob/main/linear_regression_local.ipynb)
+Click here to view the model using local database: [Linear Regression Model](https://github.com/HarryWightJr/final_project/blob/main/linear_regression_local.ipynb)
 <br>
-We are building a machine learning model using multiple linear regression algorithm based the correlation between housing prices and crime as well as personal income. The model will be designed to output a predicted house sale price by inputting a US county.
+We are building a machine learning model using multiple linear regression algorithm based the correlation between housing prices and crime, personal income, . The model will be designed to output a predicted house sale price by inputting a US county.
 
