@@ -49,4 +49,4 @@ Click here to view the model: [Linear Regression Model](https://github.com/Harry
 <br>
 We are building a machine learning model using multiple linear regression algorithm based the correlation between housing prices and crime as well as personal income. The model will be designed to output a predicted house sale price by inputting a US county.
 
-![](Images/2019and2020)
+![](Images/2019and2020.png)
