@@ -1,7 +1,6 @@
 # Final Project
 
 ## Content
-[Link to Dashboard](https://public.tableau.com/app/profile/harry4301/viz/FinalProject_16472206107840/Dashboard1?publish=yes)
 
 The topic we have selected was to examine crime rate data and housing price data by county and create a machine learning tool to see if we could create an environment that would predict housing price based on the level of crime that occurs and personal income in a given county.
 
@@ -50,3 +49,4 @@ Click here to view the model: [Linear Regression Model](https://github.com/Harry
 <br>
 We are building a machine learning model using multiple linear regression algorithm based the correlation between housing prices and crime as well as personal income. The model will be designed to output a predicted house sale price by inputting a US county.
 
+![](Images/2019and2020)
