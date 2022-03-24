@@ -42,6 +42,11 @@ If we were running a real-estate site we could use this data to determine which 
 
 We will only use the data from all these datasets from the period of 2019 to 2020. Since we are not able to retrive the median household income for each city, we will alter the original csv file [Sale_Prices_City.csv](https://github.com/HarryWightJr/final_project/blob/main/Resources/Sale_Prices_City.csv) by mapping each city to its county using the United States Cities Database [uscities.csv](https://github.com/HarryWightJr/final_project/blob/main/Resources/uscities.csv) in Excel. Also in order to reduce the file sizes of the datasets, some unnecessary columns are droppped using Excel.
 
+## Data Visualization
+
+![](Images/2019and2020.png)
+
+Here we can see the year over year for Average Sales Price of Homes, total Violent Crime, and total Property Crime for 2019 and 2020. 
 
 
 ## Machine Learning Model
@@ -49,8 +54,3 @@ Click here to view the model: [Linear Regression Model](https://github.com/Harry
 <br>
 We are building a machine learning model using multiple linear regression algorithm based the correlation between housing prices and crime as well as personal income. The model will be designed to output a predicted house sale price by inputting a US county.
 
-## Data Visualization
-
-![](Images/2019and2020.png)
-
-Here we can see the year over year for Average Sales Price of Homes, total Violent Crime, and total Property Crime for 2019 and 2020. 
